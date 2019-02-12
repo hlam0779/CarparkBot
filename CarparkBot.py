@@ -2,13 +2,11 @@ import time
 import telepot
 import requests
 from telepot.loop import MessageLoop
-from selenium import webdriver
 from telepot.namedtuple import InlineKeyboardMarkup, InlineKeyboardButton
 from DBManager import DBManager
 from pyproj import Proj, transform
 
-# Chrome driver for Selenium
-chrome = webdriver.Chrome("chromedriver.exe")
+
 # CarparkBot Token on Telegram
 bot = telepot.Bot("592470508:AAENRFAi4mqw3OcVtYphyLDfSpuX51flsDg")
 # API for Carpark Availability dataset
